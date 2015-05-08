@@ -1,6 +1,6 @@
 {
   "name": "compute-const-max-safe-integer",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Maximum safe double-precision floating-point integer.",
   "author": {
     "name": "Athan Reines",
