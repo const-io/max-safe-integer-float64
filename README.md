@@ -20,7 +20,13 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 var MAX_SAFE_INTEGER = require( 'compute-const-max-safe-integer' );
 ```
 
-Returns the maximum [safe](http://www.2ality.com/2013/10/safe-integers.html) double-precision floating-point integer.
+#### MAX_SAFE_INTEGER
+
+The maximum [safe](http://www.2ality.com/2013/10/safe-integers.html) double-precision floating-point integer.
+
+``` javascript
+MAX_SAFE_INTEGER === Math.pow( 2, 53 ) - 1;
+```
 
 
 ## Examples
