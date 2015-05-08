@@ -1,4 +1,4 @@
-const-max-safe-integer
+Max Safe Integer
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
 
@@ -17,18 +17,30 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 ## Usage
 
 ``` javascript
-var foo = require( 'compute-const-max-safe-integer' );
+var MAX_SAFE_INTEGER = require( 'compute-const-max-safe-integer' );
 ```
 
-#### foo( arr )
-
-What does this function do?
+Returns the maximum [safe](http://www.2ality.com/2013/10/safe-integers.html) double-precision floating-point integer.
 
 
 ## Examples
 
 ``` javascript
-var foo = require( 'compute-const-max-safe-integer' );
+var MAX_SAFE_INTEGER = require( 'compute-const-max-safe-integer' );
+
+var max = Math.pow( 2, 55 ),
+	len = 100,
+	val,
+	i;
+
+for ( i = 0; i < len; i++ ) {
+	val = Math.round( Math.random() * max );
+	if ( val > MAX_SAFE_INTEGER ) {
+		console.log( 'Unsafe: %d', val );
+	} else {
+		console.log( 'Safe: %d', val );
+	}
+}
 ```
 
 To run the example code from the top-level application directory,

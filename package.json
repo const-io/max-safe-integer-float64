@@ -25,7 +25,19 @@
   "keywords": [
     "compute.io",
     "compute",
-    "computation"
+    "computation",
+    "max",
+    "safe",
+    "integer",
+    "const",
+    "constant",
+    "double",
+    "precision",
+    "double-precision",
+    "floating",
+    "point",
+    "floating-point",
+    "float64"
   ],
   "bugs": {
     "url": "https://github.com/compute-io/const-max-safe-integer/issues"
