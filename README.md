@@ -25,7 +25,7 @@ var MAX_SAFE_INTEGER = require( 'compute-const-max-safe-integer' );
 The maximum [safe](http://www.2ality.com/2013/10/safe-integers.html) double-precision floating-point integer.
 
 ``` javascript
-MAX_SAFE_INTEGER === Math.pow( 2, 53 ) - 1;
+MAX_SAFE_INTEGER === Math.pow( 2, 53 ) - 1; // 9007199254740991
 ```
 
 
