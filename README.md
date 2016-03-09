@@ -8,14 +8,14 @@ MAX SAFE INTEGER
 ## Installation
 
 ``` bash
-$ npm install compute-const-max-safe-integer
+$ npm install const-max-safe-integer-float64
 ```
 
 
 ## Usage
 
 ``` javascript
-var MAX_SAFE_INTEGER = require( 'compute-const-max-safe-integer' );
+var MAX_SAFE_INTEGER = require( 'const-max-safe-integer-float64' );
 ```
 
 #### MAX_SAFE_INTEGER
@@ -32,7 +32,7 @@ MAX_SAFE_INTEGER === Math.pow( 2, 53 ) - 1; // 9007199254740991
 ``` javascript
 var round = require( 'math-round' );
 var pow = require( 'math-power' );
-var MAX_SAFE_INTEGER = require( 'compute-const-max-safe-integer' );
+var MAX_SAFE_INTEGER = require( 'const-max-safe-integer-float64' );
 
 var max;
 var x;
@@ -113,8 +113,8 @@ $ make view-browser-tests
 Copyright &copy; 2015-2016. The [Compute.io][compute-io] Authors.
 
 
-[npm-image]: http://img.shields.io/npm/v/compute-const-max-safe-integer.svg
-[npm-url]: https://npmjs.org/package/compute-const-max-safe-integer
+[npm-image]: http://img.shields.io/npm/v/const-max-safe-integer-float64.svg
+[npm-url]: https://npmjs.org/package/const-max-safe-integer-float64
 
 [build-image]: http://img.shields.io/travis/const-io/max-safe-integer-float64/master.svg
 [build-url]: https://travis-ci.org/const-io/max-safe-integer-float64

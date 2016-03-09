@@ -1,5 +1,5 @@
 {
-  "name": "compute-const-max-safe-integer",
+  "name": "const-max-safe-integer-float64",
   "version": "1.0.1",
   "description": "Maximum safe double-precision floating-point integer.",
   "author": {
