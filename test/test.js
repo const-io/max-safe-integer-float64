@@ -1,27 +1,20 @@
-/* global require, describe, it */
 'use strict';
 
 // MODULES //
 
-var // Expectation library:
-	chai = require( 'chai' ),
-
-	// Module to be tested:
-	CONST = require( './../lib' );
-
-
-// VARIABLES //
-
-var expect = chai.expect,
-	assert = chai.assert;
+var tape = require( 'tape' );
+var pow = require( 'math-power' );
+var MAX_SAFE_INTEGER = require( './../lib' );
 
 
 // TESTS //
 
-describe( 'compute-const-max-safe-integer', function tests() {
+tape( 'main export is a number', function test( t ) {
+	t.equal( typeof MAX_SAFE_INTEGER, 'number', 'main export is a number' );
+	t.end();
+});
 
-	it( 'should export a number', function test() {
-		expect( CONST ).to.be.a( 'number' );
-	});
-
+tape( 'the exported value is 2**53-1', function test( t ) {
+	t.equal( MAX_SAFE_INTEGER, pow(2,53)-1, 'returns 2**53-1' );
+	t.end();
 });
