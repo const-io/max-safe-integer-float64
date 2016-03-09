@@ -14,6 +14,6 @@ for ( i = 0; i < 100; i++ ) {
 	if ( x > MAX_SAFE_INTEGER ) {
 		console.log( 'Unsafe: %d', x );
 	} else {
-		console.log( 'Safe: %d', x );
+		console.log( 'Safe:   %d', x );
 	}
 }
