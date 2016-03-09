@@ -1,17 +1,19 @@
 'use strict';
 
+var round = require( 'math-round' );
+var pow = require( 'math-power' );
 var MAX_SAFE_INTEGER = require( './../lib' );
 
-var max = Math.pow( 2, 55 ),
-	len = 100,
-	val,
-	i;
+var max;
+var x;
+var i;
 
-for ( i = 0; i < len; i++ ) {
-	val = Math.round( Math.random() * max );
-	if ( val > MAX_SAFE_INTEGER ) {
-		console.log( 'Unsafe: %d', val );
+max = pow( 2, 55 );
+for ( i = 0; i < 100; i++ ) {
+	x = round( Math.random() * max );
+	if ( x > MAX_SAFE_INTEGER ) {
+		console.log( 'Unsafe: %d', x );
 	} else {
-		console.log( 'Safe: %d', val );
+		console.log( 'Safe: %d', x );
 	}
 }
