@@ -116,20 +116,20 @@ Copyright &copy; 2015-2016. The [Compute.io][compute-io] Authors.
 [npm-image]: http://img.shields.io/npm/v/compute-const-max-safe-integer.svg
 [npm-url]: https://npmjs.org/package/compute-const-max-safe-integer
 
-[build-image]: http://img.shields.io/travis/const-io/max-safe-integer/master.svg
-[build-url]: https://travis-ci.org/const-io/max-safe-integer
+[build-image]: http://img.shields.io/travis/const-io/max-safe-integer-float64/master.svg
+[build-url]: https://travis-ci.org/const-io/max-safe-integer-float64
 
 [coverage-image]: https://img.shields.io/codecov/c/github/const-io/max-safe-integer-float64/master.svg
 [coverage-url]: https://codecov.io/github/const-io/max-safe-integer-float64?branch=master
 
-[dependencies-image]: http://img.shields.io/david/const-io/max-safe-integer.svg
-[dependencies-url]: https://david-dm.org/const-io/max-safe-integer
+[dependencies-image]: http://img.shields.io/david/const-io/max-safe-integer-float64.svg
+[dependencies-url]: https://david-dm.org/const-io/max-safe-integer-float64
 
-[dev-dependencies-image]: http://img.shields.io/david/dev/const-io/max-safe-integer.svg
-[dev-dependencies-url]: https://david-dm.org/dev/const-io/max-safe-integer
+[dev-dependencies-image]: http://img.shields.io/david/dev/const-io/max-safe-integer-float64.svg
+[dev-dependencies-url]: https://david-dm.org/dev/const-io/max-safe-integer-float64
 
-[github-issues-image]: http://img.shields.io/github/issues/const-io/max-safe-integer.svg
-[github-issues-url]: https://github.com/const-io/max-safe-integer/issues
+[github-issues-image]: http://img.shields.io/github/issues/const-io/max-safe-integer-float64.svg
+[github-issues-url]: https://github.com/const-io/max-safe-integer-float64/issues
 
 [tape]: https://github.com/substack/tape
 [istanbul]: https://github.com/gotwarlost/istanbul
